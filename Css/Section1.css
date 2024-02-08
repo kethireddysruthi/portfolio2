@@ -1,0 +1,67 @@
+
+h4{
+    max-width: 500px;
+    color: black;
+    position: relative;
+}
+h4:before{
+    content:"______";
+    display: block;
+    width: 70px;
+    height: 19px;
+    position: absolute;
+    left: 12%;
+    
+}
+/* h1::before{
+    content:"______";
+    display: block;
+    width: 70px;
+    height: 19px;
+}
+h1{
+    max-width: 500px;
+    color: black;
+    position: relative;
+} */
+.tech-stack{
+    position: relative;
+    border: 2px solid black;
+    height: 50px;
+   
+}
+.bg-bar{
+    position: absolute;
+    background-color: #edb72b;
+    border: 2px solid black;
+    height: 50px;
+    transform: rotateZ(3deg);
+
+}
+ .nav-item .nav-link:hover{
+    color: #fc3e03;
+    border-bottom: 1px solid #fc3e03;
+   
+}
+#name{
+    animation: name 3s infinite;
+}
+@keyframes name {
+
+    0%{
+
+        transform: scale(1);
+
+    }
+
+    50%{
+
+        transform: scale(1.1);
+
+    }
+
+    100%{
+
+        transform: scale(1);
+
+    }
